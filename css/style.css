@@ -1,0 +1,209 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../css/imagen.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+html, body {
+    height: 100%; /* Asegúrate de que el cuerpo y el html ocupen toda la altura */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+.container {
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 350px; /* Anchura máxima del contenedor */
+    width: 80%; /* Anchura completa hasta la máxima */
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra para mejor visibilidad */
+    margin-top: 107px; /* Añade margen superior para separar del black-line */
+}
+
+/* Estilos para la barra superior */
+.top-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(93, 93, 189);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la imagen del logo */
+
+/* Estilos para la línea negra */
+.black-line {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Estilos para los botones */
+.button-container {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px; 
+}
+
+.top-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para el contenido */
+.content {
+    padding-top: 120px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el contenedor del formulario */
+
+/* Estilos para el título del formulario */
+.login h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+/* Estilos para etiquetas y entradas de texto en el formulario */
+.login-form label,
+.login-form input {
+    width: 100%;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón del formulario */
+.login-form input[type="button"] {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 29px; /* Ajusta la altura según sea necesario */
+    margin-left: 200px; /* Margen desde el borde izquierdo */
+}
+
+.login-form input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones */
+
+.button1 {
+    background-image: url('sedeplazadelapaz.jpg');
+    background-size: 330px 180px; /* Cambia el tamaño del fondo de la imagen */
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 70px 110px;
+    margin: 10px;
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 5px;
+    color: white; /* Color del texto */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button2 {
+    background-image: url('colsamiro.png');
+    background-size: 300px 160px; /* Cambia el tamaño del fondo de la imagen */
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 70px 110px;
+    margin: 10px;
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 5px;
+    color: white; /* Color del texto */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button3 {
+    background-image: url('posgrado.jpg');
+    background-size: 290px 160px; /* Cambia el tamaño del fondo de la imagen */
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 70px 110px;
+    margin: 10px;
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 5px;
+    color: white; /* Color del texto */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button4 {
+    background-image: url('soledad.png');
+    background-size: 290px 160px; /* Cambia el tamaño del fondo de la imagen */
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 70px 110px;
+    margin: 10px;
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 5px;
+    color: white; /* Color del texto */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;   
+}
+.center-text {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.vista3d {
+    display: flex;
+    justify-content: flex-start; /* Alineación a la izquierda */
+    align-items: center; /* Centrado verticalmente */
+    background-color: #fff;
+    max-width: 80%; /* Establece un ancho máximo */
+    padding: 20px; /* Añade espacio interno */
+}
