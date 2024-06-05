@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUB sistema de reserva de instalaciones</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/salon.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="../css/topgov.png" alt="Logo" class="logo-img">
+    </div>
+    <div class="black-line">
+        <form action="/search" method="GET">
+            <input type="search" id="search" name="q">
+            <input type="button" id="Mostrar" onclick="verificar()"value="Buscar">
+        </form>
+        <!-- Enlaza el archivo JavaScript -->
+    
+    </div>
+
+
+
+    <div>
+    
+    
+        
+        <div class="center-text">
+            <h1>.</h1>
+            <p id="mapa">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1567.7017848981798!2d-74.78873606687142!3d10.985956261657611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cff2b82b8815%3A0x4e7910ae3b78e831!2sUniBarranquilla%20Sede%20Plaza%20De%20La%20Paz!5e0!3m2!1ses!2sco!4v1717556503366!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </div>
+        <div id="imageContainer" style="display: none;">
+            <img src="" alt="Imagen de búsqueda" id="searchImage">
+        </div>
+    </div>
+
+    
+</body>
+</html>

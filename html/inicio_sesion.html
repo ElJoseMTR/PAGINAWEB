@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUB sistema de reserva de instalaciones</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/javasrip.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+      <img src="../css/topgov.png" alt="Logo" class="logo-img">
+    </div>
+    <div class="black-line">
+        <div class="button-container">
+            <a href="https://www.ejemplo.com/registrarse" class="top-button">Registrarse</a>
+        </div>
+    </div>
+    <div class="container">
+        <section class="login">
+          <h2>Iniciar Sesión</h2>
+          <form action="/submit_login" method="post" class="login-form">
+            <label for="usuario">Usuario:</label>
+            <br>
+            <input type="text" id="usuario" name="usuario" required>
+             <br>
+            <label for="password">Contraseña:</label>
+            <br>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="button" id="Mostrar" onclick="verificar()"value="Iniciar sesión">
+          </form>
+        </section>
+      </div>
+</body>
+</html>
