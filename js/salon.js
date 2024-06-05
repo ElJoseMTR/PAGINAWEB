@@ -2,7 +2,7 @@ function verificar(){
     var usuario = document.getElementById('search').value;
         if (usuario === 'salon 4') {
             mapa.style.display = 'none'; 
-            searchImage.src = '../css/soledad.png'; // Ruta correcta de la imagen
+            searchImage.src = '../css/salon04.png'; // Ruta correcta de la imagen
             imageContainer.style.display = 'block'; // Mostrar el contenedor de la imagen
         }else if (usuario == 'mapa'){
             mapa.style.display = 'block';
