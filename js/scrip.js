@@ -18,7 +18,7 @@ function init() {
     scene.add(light);
 
     const loader = new GLTFLoader();
-    loader.load('./assets/edificio.glb', function (gltf) {
+    loader.load('./assets/pruebaposgrado.glb', function (gltf) {
         model = gltf.scene;
         scene.add(model);
         animate();
